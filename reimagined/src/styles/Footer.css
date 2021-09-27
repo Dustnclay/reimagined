@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4%;
+}
+
+.logoDiv {
+  display: flex;
+
+  width: 33%;
+}
+
+.logo {
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  width: 33%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.l-link {
+  /* width: auto; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.m-link {
+  /* width: auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.socialImg {
+  width: 45%;
+  height: auto;
+}
+
+.address {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  line-height: 1.4em;
+  color: white;
+}
